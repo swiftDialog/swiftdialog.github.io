@@ -1,3 +1,3 @@
 # swiftdialog.github.io
 
-[swiftDialopg home page](https://swiftdialog.github.io)
+[swiftDialog home page](https://swiftdialog.github.io)

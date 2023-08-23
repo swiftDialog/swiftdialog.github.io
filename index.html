@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Landing Page</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(116,56,195);
+    background: linear-gradient(45deg, rgba(116,56,195,1) 0%, rgba(9,9,121,1) 20%, rgba(29,195,140,1) 69%, rgba(0,212,255,1) 100%);
+    font-size: 20px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+  .content {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .buttoncontent {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .image {
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    max-width: 200px;
+    text-decoration: none;
+  }
+
+  a {
+    text-decoration: none;
+    padding: 2px;
+  }
+
+  .inlinelink:hover {
+    background-color: #0056b3;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+  }
+
+  .button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+
+  .monotype-text {
+    font-family: "Courier New", monospace;
+    background-color: rgb(227, 227, 227);
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 16px;
+  }
+
+  
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <img src="https://img.shields.io/github/v/tag/bartreardon/swiftDialog?label=">
+      <h2>swiftDialog</h2>
+      <hr>
+      <p>swiftDialog is an open source admin utility for macOS 12 or later written in SwiftUI</p>
+      <p>Enhance your management script user experience on macOS by incorporating intuitive and captivating dialogs.</p>
+      <p>Tailor dialogs to match your brand's personality and style.</p>
+      <p>
+      <img class="image" src="https://user-images.githubusercontent.com/3598965/260624179-93f7fa7a-62e9-4a8b-8daa-1b004f1e1896.png" alt="Product Image" width="500">
+      </p>
+    </div>
+    <div class="buttoncontent">
+      <a class="button" href="https://github.com/bartreardon/swiftDialog/releases">Get the Latest Release</a>
+      <br><br><br>
+      <a class="button" href="https://github.com/bartreardon/swiftDialog/wiki">Documentation</a>
+    </div>
+    <div class="content">
+    <p>Join a vibrant community on the <a class="inlinelink" href="https://www.macadmins.org">MacAdmins Slack</a> <font class="monotype-text">#swiftdialog</font> channel, share insights, tips, and experiences with swiftDialog.</p>
+</div>
+</div>
+</body>
+</html>
